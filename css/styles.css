@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    background: #fff;
+}
+h2 {
+    font-size: 15px;
+    margin-top: 0px;
+}
+h3 {
+    font-size: 20px;
+}
+.ru {
+    display: block;
+}
+.en {
+    display: none;
+}
+.jumbotron {
+    color: #fff;
+    background: #42A8C0;
+    padding-bottom: 0; /* убираем нижнее поле для позиционирования вкладок прямо над основным текстом */
+    margin-bottom: 10px;
+}
+.jumbotron .container {
+    max-width: 960px;
+}
+.jumbotron .name {
+    font-size: 24px;
+    margin-top: 32px;
+}
+.jumbotron .img {
+    width: 128px;
+    height: 128px;
+    margin-right: 30px;
+}
+.jumbotron .fa {
+    font-size: 128px;
+}
+.jumbotron .nav-tabs {
+    font-size: 12px;
+}
+.main {
+    max-width: 960px;
+    background: #fff;
+}
+.main .tab-content h3 {
+    color: #42A8C0;
+}
+
+@media (max-width: 400px) {
+    .jumbotron .name {
+        margin-top: 20px;
+    }
+    .jumbotron .img {
+        margin-right: 15px;
+    }
+}
